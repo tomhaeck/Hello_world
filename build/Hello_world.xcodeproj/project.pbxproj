@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              C4C55BBE5EAA44B6AF87B321 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 60F8A16FE66F4799B6562768 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            219FBCFD5C8B42C5841B4032 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            FCC5F2DF35254FB1A7C38EF6 /* PBXTargetDependency */,
+                            12BEAE4672B040D8AB888E02 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              6E0EB0152B3D4EC2B55DEAF8 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = B927070041254FBCBA8BB4C6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            93569E45A27C4AB7ADFD21EE /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+5DB99BE6D7D94D418A571550 /* /Users/thaeck0/Desktop/Hello_world/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FAE611DDAA11404AA6BCF4EC /* /Users/thaeck0/Desktop/Hello_world/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+35BFBCBA2AA947E4844DBC54 /* /Users/thaeck0/Desktop/Hello_world/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 24190083AEBB493BBE48D7C1 /* /Users/thaeck0/Desktop/Hello_world/src/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              51874763D62A43C298139CFE /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              DB16FAAECA7A465FA58B3F76 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2A048B10796F4EAC961642DF /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              5E8687D6E9DB4CFFBB328364 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              9987E0C3FBDD469899509E78 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              44F65DA792B448C691BB4427 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9F542DB0AA3640ABB0B57A4F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6E0EB0152B3D4EC2B55DEAF8;
+                     remoteInfo = ZERO_CHECK;
+              };
+              EF55F08CDBAD472A9930D69F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9F542DB0AA3640ABB0B57A4F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 19C34CE9287B4820BBCEE84F;
+                     remoteInfo = Hello_world;
+              };
+              62597F8681B94107BECB249B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9F542DB0AA3640ABB0B57A4F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6E0EB0152B3D4EC2B55DEAF8;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+FAE611DDAA11404AA6BCF4EC /* /Users/thaeck0/Desktop/Hello_world/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+24190083AEBB493BBE48D7C1 /* /Users/thaeck0/Desktop/Hello_world/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "main.cpp"; sourceTree = SOURCE_ROOT; };
+51BACB7AB6C14482A3931F0B /* Hello_world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Hello_world; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              7010A2ED5CB74A69891E97E4  = {
+                     isa = PBXGroup;
+                     children = (
+                            38D3A7BB68A84084A988FE98 /* Sources */,
+                            08315CDCC31843A98D0FE90F /* Resources */,
+                            AAC90B8765A446219B9BFDC6 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              38D3A7BB68A84084A988FE98 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2E8DA366BB8C430391E7F551 /* ALL_BUILD */,
+                            5B39AA0C23E24ABDA6CF52FE /* Hello_world */,
+                            1CECF125CBF94F39A1CC41ED /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              08315CDCC31843A98D0FE90F /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              2E8DA366BB8C430391E7F551 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            64A868DA534A42089B81213D /* CMake Rules */,
+                            FAE611DDAA11404AA6BCF4EC /* /Users/thaeck0/Desktop/Hello_world/src/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              64A868DA534A42089B81213D /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              5B39AA0C23E24ABDA6CF52FE /* Hello_world */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8CF67E53951640178B5D35BD /* Source Files */,
+                            FAE611DDAA11404AA6BCF4EC /* /Users/thaeck0/Desktop/Hello_world/src/CMakeLists.txt */,
+                     );
+                     name = Hello_world;
+                     sourceTree = "<group>";
+              };
+              8CF67E53951640178B5D35BD /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            24190083AEBB493BBE48D7C1 /* /Users/thaeck0/Desktop/Hello_world/src/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              1CECF125CBF94F39A1CC41ED /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            531AEF3D840A4A3ABD637341 /* CMake Rules */,
+                            FAE611DDAA11404AA6BCF4EC /* /Users/thaeck0/Desktop/Hello_world/src/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              531AEF3D840A4A3ABD637341 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              AAC90B8765A446219B9BFDC6 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            51BACB7AB6C14482A3931F0B /* Hello_world */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              19C34CE9287B4820BBCEE84F /* Hello_world */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 8710B942D43D41A7992DDC0C /* Build configuration list for PBXNativeTarget "Hello_world" */;
+                     buildPhases = (
+                            AB037F3E000B47ACBD91B7F6 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            FAA3867965254A09867620C4 /* PBXTargetDependency */,
+                     );
+                     name = Hello_world;
+                     productName = Hello_world;
+                     productReference = 51BACB7AB6C14482A3931F0B /* Hello_world */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              9F542DB0AA3640ABB0B57A4F /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = DA3A80382559450286C7BC7E /* Build configuration list for PBXProject  "Hello_world" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            DB16FAAECA7A465FA58B3F76 /* Debug */,
+                            2A048B10796F4EAC961642DF /* Release */,
+                            5E8687D6E9DB4CFFBB328364 /* MinSizeRel */,
+                            9987E0C3FBDD469899509E78 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 7010A2ED5CB74A69891E97E4;
+                     projectDirPath = /Users/thaeck0/Desktop/Hello_world/src;
+                     projectRoot = "";
+                     targets = (
+                            C4C55BBE5EAA44B6AF87B321 /* ALL_BUILD */,
+                            19C34CE9287B4820BBCEE84F /* Hello_world */,
+                            6E0EB0152B3D4EC2B55DEAF8 /* ZERO_CHECK */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              9034E2A14B7248B89D816B1B /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              219FBCFD5C8B42C5841B4032 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/thaeck0/Desktop/Hello_world/build -f /Users/thaeck0/Desktop/Hello_world/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              A5A5F27196A44F4BB306617D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              93569E45A27C4AB7ADFD21EE /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/thaeck0/Desktop/Hello_world/build -f /Users/thaeck0/Desktop/Hello_world/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              AB037F3E000B47ACBD91B7F6 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            35BFBCBA2AA947E4844DBC54 /* /Users/thaeck0/Desktop/Hello_world/src/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              FCC5F2DF35254FB1A7C38EF6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6E0EB0152B3D4EC2B55DEAF8 /* ZERO_CHECK */;
+                     targetProxy = 44F65DA792B448C691BB4427 /* PBXContainerItemProxy */;
+              };
+              12BEAE4672B040D8AB888E02 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 19C34CE9287B4820BBCEE84F /* Hello_world */;
+                     targetProxy = EF55F08CDBAD472A9930D69F /* PBXContainerItemProxy */;
+              };
+              FAA3867965254A09867620C4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6E0EB0152B3D4EC2B55DEAF8 /* ZERO_CHECK */;
+                     targetProxy = 62597F8681B94107BECB249B /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              06F23F5378BC460CAE44E50F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build/build;
+                     };
+                     name = Debug;
+              };
+              9AFA73763B4C4B2ABB3FA1C8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build/build;
+                     };
+                     name = Release;
+              };
+              0D02A33920EC4BA8BA060C40 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build/build;
+                     };
+                     name = MinSizeRel;
+              };
+              9CE63BCC780443BC8F95EF41 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              640DDD40EDFC48F7BFF5D788 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B4B38A23D7664984AD12EE3A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5BF54FAF1E3D45C3A4ED6716 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              BEB022F31AE5492096E96BC4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              96565C255EED4755B753018D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Hello_world;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A1DABAAEDAA34B469A2F7092 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Hello_world;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              7577D082A7AC4B449BC81B2D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Hello_world;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4086774524DD414C8A2EBF44 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Hello_world;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E11AAA0340254987A80F5A9F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4D76E22EEE754B2DB9468B8D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2E0F91DB0B554C4BA15283D6 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              61591D5A4D804FB7A1464728 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/thaeck0/Desktop/Hello_world/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              DA3A80382559450286C7BC7E /* Build configuration list for PBXProject  "Hello_world" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            06F23F5378BC460CAE44E50F /* Debug */,
+                            9AFA73763B4C4B2ABB3FA1C8 /* Release */,
+                            0D02A33920EC4BA8BA060C40 /* MinSizeRel */,
+                            9CE63BCC780443BC8F95EF41 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              60F8A16FE66F4799B6562768 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            640DDD40EDFC48F7BFF5D788 /* Debug */,
+                            B4B38A23D7664984AD12EE3A /* Release */,
+                            5BF54FAF1E3D45C3A4ED6716 /* MinSizeRel */,
+                            BEB022F31AE5492096E96BC4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8710B942D43D41A7992DDC0C /* Build configuration list for PBXNativeTarget "Hello_world" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            96565C255EED4755B753018D /* Debug */,
+                            A1DABAAEDAA34B469A2F7092 /* Release */,
+                            7577D082A7AC4B449BC81B2D /* MinSizeRel */,
+                            4086774524DD414C8A2EBF44 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B927070041254FBCBA8BB4C6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E11AAA0340254987A80F5A9F /* Debug */,
+                            4D76E22EEE754B2DB9468B8D /* Release */,
+                            2E0F91DB0B554C4BA15283D6 /* MinSizeRel */,
+                            61591D5A4D804FB7A1464728 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 9F542DB0AA3640ABB0B57A4F;
+}
